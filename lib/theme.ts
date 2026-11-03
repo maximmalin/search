@@ -1,0 +1,106 @@
+export const colors = {
+  primary: {
+    50: '#e6f7ff',
+    100: '#b3e5fc',
+    200: '#81d4fa',
+    300: '#4fc3f7',
+    400: '#29b6f6',
+    500: '#0288d1',
+    600: '#0277bd',
+    700: '#01579b',
+    800: '#014377',
+    900: '#003355',
+  },
+  accent: {
+    50: '#fff8e1',
+    100: '#ffecb3',
+    200: '#ffe082',
+    300: '#ffd54f',
+    400: '#ffca28',
+    500: '#ffc107',
+    600: '#ffb300',
+    700: '#ffa000',
+    800: '#ff8f00',
+    900: '#ff6f00',
+  },
+  success: {
+    500: '#00c853',
+    600: '#00b248',
+  },
+  warning: {
+    500: '#ff9800',
+    600: '#f57c00',
+  },
+  error: {
+    400: '#ff5252',
+    500: '#f44336',
+    600: '#e53935',
+  },
+  neutral: {
+    0: '#ffffff',
+    50: '#fafafa',
+    100: '#f5f5f5',
+    200: '#eeeeee',
+    300: '#e0e0e0',
+    400: '#bdbdbd',
+    500: '#9e9e9e',
+    600: '#757575',
+    700: '#616161',
+    800: '#424242',
+    900: '#212121',
+    950: '#0a0a0a',
+  },
+  background: '#f0f4f8',
+  surface: '#ffffff',
+  text: '#1a1a2e',
+  textSecondary: '#555555',
+  border: '#e0e7ee',
+};
+
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+  xxl: 48,
+};
+
+export const radius = {
+  sm: 6,
+  md: 10,
+  lg: 16,
+  xl: 24,
+  pill: 999,
+};
+
+export const fontSize = {
+  xs: 11,
+  sm: 13,
+  md: 15,
+  lg: 18,
+  xl: 22,
+  xxl: 28,
+  title: 34,
+};
+
+export const categoryColors: Record<string, string> = {
+  'Transistor': '#0288d1',
+  'MOSFET': '#00bcd4',
+  'Op-Amp': '#7cb342',
+  'Timer': '#fb8c00',
+  'Comparator': '#8d6e63',
+  'Voltage Regulator': '#43a047',
+  'Switching Regulator': '#66bb6a',
+  'Diode': '#e53935',
+  'Schottky Diode': '#ef5350',
+  'Zener Diode': '#d32f2f',
+  'Audio Amplifier': '#ab47bc',
+  'Logic IC': '#5c6bc0',
+  'Microcontroller': '#26a69a',
+  'Interface IC': '#78909c',
+  'Driver IC': '#ffa726',
+  'Optocoupler': '#ec407a',
+  'Voltage Reference': '#9ccc65',
+  'Controller IC': '#8e24aa',
+};
